@@ -1,6 +1,8 @@
-const Bath = () => {
+const Bath = (props) => {
   return ( 
-    <h1>This is a bathroom</h1>
+    <div className='bath' id={`bath-${props.size}`}>
+      {props.size} Bath
+    </div>
   );
 }
 

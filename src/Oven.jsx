@@ -1,6 +1,8 @@
-const Oven = () => {
+const Oven = (props) => {
   return ( 
-    <h1>This is an Oven.</h1>
+    <div id="oven">
+      Oven
+    </div>
   );
 }
 
